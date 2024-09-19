@@ -1,0 +1,21 @@
+.filled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto 2rem;
+  height: 3.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+
+  color: var(--text-color);
+  background-color: var(--theme-color);
+
+  cursor: pointer;
+  transition: opacity 0.3s;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}

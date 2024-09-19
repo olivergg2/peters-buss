@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+#nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 1.5rem;
+  height: 3.5rem;
+}
+
+#nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+#logo {
+  height: 100%;
+  padding: 0.5rem 0;
+}
+
+#nav-links {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  gap: 0.5rem;
+  height: max-content;
+
+  min-width: 16rem;
+}
+
+.card.outlined {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+}
+
+.card.transparent {
+  background-color: transparent;
+  padding: 0;
+}
+
+.card h1 {
+  font-size: 2rem;
+}
