@@ -31,6 +31,7 @@ export default function Footer() {
               <Link href="">Funkar inte</Link>
               <Link href="">Inte denna heller</Link>
               <Link href="">Vanliga frågor</Link>
+              <Link href="">Fler frågor</Link>
             </ul>
           </article>
         </section>
