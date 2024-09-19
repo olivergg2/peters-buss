@@ -1,5 +1,6 @@
 import { JSX } from 'solid-js'
 import createClasses from '../../helpers/classname.hook'
+import Wrapper from '../Wrapper/Wrapper'
 import './Link.css'
 
 interface LinkProps extends JSX.AnchorHTMLAttributes<HTMLAnchorElement> {
