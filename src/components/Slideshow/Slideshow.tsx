@@ -1,6 +1,6 @@
 import { createSignal, JSX, onCleanup } from 'solid-js'
 import './Slideshow.css'
-import useInterval from '../../helpers/interval.hook'
+import useInterval from '../../helpers/interval.helper'
 import Button from '../Button/Button'
 import createClasses from '../../helpers/classname.helper'
 
