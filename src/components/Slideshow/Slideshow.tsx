@@ -2,7 +2,7 @@ import { createSignal, JSX, onCleanup } from 'solid-js'
 import './Slideshow.css'
 import useInterval from '../../helpers/interval.hook'
 import Button from '../Button/Button'
-import createClasses from '../../helpers/classname.hook'
+import createClasses from '../../helpers/classname.helper'
 
 interface SlideshowProps extends JSX.HTMLAttributes<HTMLElement> {
   links: string[]

@@ -1,5 +1,5 @@
 import { JSX } from 'solid-js'
-import createClasses from '../../helpers/classname.hook'
+import createClasses from '../../helpers/classname.helper'
 import Wrapper from '../Wrapper/Wrapper'
 import './Link.css'
 

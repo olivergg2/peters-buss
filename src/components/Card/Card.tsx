@@ -1,6 +1,6 @@
 import { JSX } from 'solid-js'
 import styles from './Card.module.css'
-import createClasses from '../../helpers/classname.hook'
+import createClasses from '../../helpers/classname.helper'
 
 interface CardProps extends JSX.HTMLAttributes<HTMLElement> {
   outlined?: boolean

@@ -1,5 +1,5 @@
 import { JSX } from 'solid-js'
-import createClasses from '../../helpers/classname.hook'
+import createClasses from '../../helpers/classname.helper'
 import styles from './Button.module.css'
 
 interface ButtonProps extends JSX.HTMLAttributes<HTMLButtonElement> {
